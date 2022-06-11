@@ -46,7 +46,7 @@ extension ResultsViewController {
     }
     
     private func updateUI(with animal: AnimalType) {
-        resultTextLabel.text = "Вы - \(animal.rawValue)"
+        resultImageLabel.text = "Вы - \(animal.rawValue)"
         resultTextLabel.text = animal.definition
     }
 }
