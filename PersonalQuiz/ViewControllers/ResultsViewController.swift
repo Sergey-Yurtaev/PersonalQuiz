@@ -23,6 +23,10 @@ class ResultsViewController: UIViewController {
         getResult(from: answersChoosenResult)
     }
     
+    deinit {
+        print("ResultsViewController has been dealocated")
+    }
+    
 }
 //  my version
 // MARK: - Private Methods

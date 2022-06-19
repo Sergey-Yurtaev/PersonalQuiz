@@ -11,5 +11,8 @@ class IntroductionViewController: UIViewController {
 
     @IBAction func unwind(segue: UIStoryboardSegue) {}
 
+    deinit {
+        print("IntroductionViewController has been dealocated")
+    }
 }
 

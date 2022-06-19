@@ -83,6 +83,9 @@ class QuestionsViewController: UIViewController {
         }
     }
     
+    deinit {
+        print("QuestionsViewController has been dealocated")
+    }
     
 }
 
